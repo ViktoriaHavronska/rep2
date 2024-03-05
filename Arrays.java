@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Arrays {
-            void showArr (){
+            void showArr (Arrays arr){
                 int[] numbers = {5, -20, 35, -3, 262, -92, 13, 0, -19, 80};
                 for (int i = 0; i < numbers.length; i++) {
                     System.out.print(numbers[i] + "; ");
@@ -12,10 +12,8 @@ public class Arrays {
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Please sort this numbers: ");
                 char num = scanner.next().charAt(0);
-
             }
-
-            void showArr2(){
+            void showArr2(Arrays arr){
                 int[] numbers = {5, -20, 35, -3, 262, -92, 13, 0, -19, 80};
             for (int i = numbers.length - 1; i > 0; i--) {
                 for (int j = 0; j < i; j++) {
