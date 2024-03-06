@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
 public class Arrays {
-            void showArr (Arrays arr){
-                int[] numbers = {5, -20, 35, -3, 262, -92, 13, 0, -19, 80};
-                for (int i = 0; i < numbers.length; i++) {
-                    System.out.print(numbers[i] + "; ");
+            void showArr (int[] arr){
+                for (int i = 0; i < arr.length; i++) {
+                    System.out.print(arr[i] + "; ");
                 }
                 System.out.println("   ");
             }
@@ -13,17 +12,16 @@ public class Arrays {
                 System.out.print("Please sort this numbers: ");
                 char num = scanner.next().charAt(0);
             }
-            void showArr2(Arrays arr){
-                int[] numbers = {5, -20, 35, -3, 262, -92, 13, 0, -19, 80};
-            for (int i = numbers.length - 1; i > 0; i--) {
+            void showArr2(int[] arr){
+            for (int i = arr.length - 1; i > 0; i--) {
                 for (int j = 0; j < i; j++) {
-                    if (numbers[j] > numbers[j + 1]) {
-                        int t = numbers[j];
-                        numbers[j] = numbers[j + 1];
-                        numbers[j + 1] = t;
+                    if (arr[j] > arr[j + 1]) {
+                        int t = arr[j];
+                        arr[j] = arr[j + 1];
+                        arr[j + 1] = t;
                     }
                 }
-                System.out.print(numbers[i] + "; ");
+                System.out.print(arr[i] + "; ");
                 }
             }
 }
