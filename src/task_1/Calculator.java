@@ -1,4 +1,4 @@
-package src;
+package src.task_1;
 
 public class Calculator {
     int sum(int num1, int num2) {

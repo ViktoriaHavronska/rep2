@@ -1,4 +1,4 @@
-package src;
+package src.task_1;
 
 public class Shape {
     void showTriangle(int size) {

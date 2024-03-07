@@ -1,11 +1,11 @@
-package src;
+package src.task_2;
 
 import java.util.Scanner;
 
 public class Arrays {
     void showArr(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "; ");
+        for (int j : arr) {
+            System.out.print(j + "; ");
         }
         System.out.println("   ");
     }
