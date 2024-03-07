@@ -1,8 +1,5 @@
 package src;
 
-import src.Calculator;
-import src.Shape;
-
 public class Main {
     public static void main(String[] args) {
         Shape shape = new Shape();
@@ -11,10 +8,10 @@ public class Main {
         System.out.println(shape.calculateSquare(3));
 
         Calculator calc = new Calculator();
-        System.out.println(calc.sum(5,6));
-        System.out.println(calc.substract(5,6));
-        System.out.println(calc.multiply(5,6));
-        System.out.println(calc.division(5,6));
+        System.out.println(calc.sum(5, 6));
+        System.out.println(calc.substract(5, 6));
+        System.out.println(calc.multiply(5, 6));
+        System.out.println(calc.division(5, 6));
         calc.showCalculator();
 
 
