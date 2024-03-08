@@ -1,3 +1,5 @@
+package src.task_1;
+
 public class Shape {
     void showTriangle(int size) {
         for (int i = 0; i < size; i++) {
